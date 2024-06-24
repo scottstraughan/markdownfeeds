@@ -1,0 +1,34 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Captain's Log",
+  "feed_url": "feed.json",
+  "items": [
+    {
+      "id": "a91fadbfb3313c99309a2e3eae0021ded91ff002",
+      "title": "The Borg",
+      "summary": "We found evidence that the Borg have been assimilating people. Really upset about this, they left ou..",
+      "date_published": "2024-02-03T00:00:00",
+      "author": "Jean-Luc Picard",
+      "_location": "The Deck"
+    },
+    {
+      "id": "f15b66008ebd5336d8ec54021e6dc0981667cacd",
+      "title": "Alpha Quadrant",
+      "summary": "We passed a really strange looking asteroid the other day. Realllllly interesting day...",
+      "date_published": "2024-02-01T00:00:00",
+      "author": "Jean-Luc Picard",
+      "_location": "Captains Quarters"
+    },
+    {
+      "id": "52479b4b310adba0bdddaa9422aadb0771835185",
+      "title": "Q Arrives",
+      "summary": "Annoyingly, Q arrived and turned my security officer into a tin of beans.",
+      "date_published": "2024-02-02T00:00:00",
+      "author": "Jean-Luc Picard",
+      "_location": "Beverly Crushers Room"
+    }
+  ],
+  "_total_items": 3,
+  "_page": 1,
+  "_total_pages": 1
+}

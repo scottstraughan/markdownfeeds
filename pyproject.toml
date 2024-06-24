@@ -1,0 +1,29 @@
+[project]
+name = "markdownfeeds"
+version = "1.0.0"
+authors = [
+    { name = "Scott Straughan", email = "dev@strong.scot" },
+]
+description = "Small library that can generated paged feeds (json, html, etc) based on a collection of markdown files."
+readme = "README.md"
+requires-python = ">=3.11.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyyaml",
+    "python-dateutil",
+    "markdown",
+    "html2text",
+    "chevron",
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/scottstraughan/markdowntofeed"
+Issues = "https://github.com/scottstraughan/markdowntofeed/issues"
+
+[tool.setuptools.package-data]
+markdownfeeds = ["**/*.html"]
