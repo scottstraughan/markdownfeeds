@@ -1,6 +1,6 @@
 [project]
 name = "markdownfeeds"
-version = "1.0.0"
+version = "1.8.0"
 authors = [
     { name = "Scott Straughan", email = "dev@strong.scot" },
 ]
