@@ -10,6 +10,8 @@ from markdownfeeds.Generators.Json.Models.JsonFeed import JsonFeed
 from markdownfeeds.Generators.Json.Models.JsonFeedItem import JsonFeedItem
 from markdownfeeds.MarkdownFile import MarkdownFile
 
+logging = logging.getLogger(__name__)
+
 
 class JsonFeedGenerator(DefaultFeedGenerator):
     # JSON Feed version

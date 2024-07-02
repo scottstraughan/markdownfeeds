@@ -11,6 +11,8 @@ from dateutil import parser
 from markdownfeeds import read_from_file
 from markdownfeeds.Exceptions import DateParseError, TitleNotFoundError, InvalidMarkdownFrontMatterError
 
+logging = logging.getLogger(__name__)
+
 
 class MarkdownFile:
     """

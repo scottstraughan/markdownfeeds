@@ -9,6 +9,8 @@ from markdownfeeds.Generators.Default.Models.Feed import Feed
 from markdownfeeds.Generators.Json.JsonFeedGenerator import JsonFeedGenerator
 from markdownfeeds.Generators.Json.Models.JsonFeed import JsonFeed
 
+logging = logging.getLogger(__name__)
+
 
 class HtmlFeedGenerator(JsonFeedGenerator):
     # Default template path

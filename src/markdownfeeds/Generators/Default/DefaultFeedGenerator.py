@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+
 from concurrent.futures.thread import ThreadPoolExecutor
 from math import ceil
 from pathlib import Path
@@ -11,6 +12,8 @@ from markdownfeeds.Generators import GeneratorSettings
 from markdownfeeds.Generators.Default.Models.Feed import Feed
 from markdownfeeds.Generators.Default.Models.FeedItem import FeedItem
 from markdownfeeds.MarkdownFile import MarkdownFile
+
+logging = logging.getLogger(__name__)
 
 
 class DefaultFeedGenerator:
