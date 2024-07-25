@@ -58,6 +58,6 @@ class Feed:
         self.store.set('items', self.items)
         self.store.set('page', self.page)
         self.store.set('total_pages', self.total_pages)
-        self.store.set('total_items', len(self.items))
+        self.store.set('total_items', self.total_items)
 
         return self.store.dump()
